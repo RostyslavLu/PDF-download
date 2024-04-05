@@ -1,0 +1,32 @@
+.container-form-download {
+    margin: var(--space-xl);
+}
+.container-form-download input, .container-form-download label {
+    display: block;
+}
+
+.container-form-download input[type="text"] {
+    padding: var(--space-sm);
+    margin: var(--space-sm) 0;
+    box-sizing: border-box;
+}
+.container-form-download input[type="text"]::placeholder {
+    font-size: var(--font-size-lg);
+    color: var(--color-gray);
+}
+.container-form-download input[type="text"]:focus {
+    border: var(--border-1) solid var(--color-primary);
+    border-radius: var(--border-radius-normal);
+}
+
+.container-form-download label {
+    margin-top: var(--space-xl);
+    font-size: var(--font-size-lg);
+    font-weight: bold;
+}
+.error-url {
+    color: var(--color-error);
+    font-size: var(--font-size-lg);
+    font-weight: bold;
+    margin-left: var(--space-xl);
+}

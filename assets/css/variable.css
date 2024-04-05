@@ -1,0 +1,36 @@
+/* spacing */
+:root {
+    --space-xxl: 24px;
+    --space-xl: 20px;
+    --space-lg: 16px;
+    --space-md: 12px;
+    --space-sm: 8px;
+    --space-xs: 4px;
+}
+/* typography */
+:root {
+    --font-size-xxl: 24px;
+    --font-size-xl: 20px;
+    --font-size-lg: 16px;
+    --font-size-md: 14px;
+    --font-size-sm: 12px;
+    --font-size-xs: 10px;
+}
+/* color */
+:root {
+    --color-primary: rgb(76, 175, 80);
+    --color-secondary: rgb(0, 128, 0);
+    --color-success: rgb(57, 57, 209);
+    --color-error: rgb(240, 64, 64);
+    --color-light: rgb(255, 255, 255);
+    --color-dark: rgb(0, 0, 0);
+    --color-gray: rgb(95, 94, 94);
+}
+/* border */
+:root {
+    --border-radius-normal: 5px;
+    --border-radius-large: 10px;
+    --border-1: 1px;
+    --border-2: 2px;
+    --border-3: 3px;
+}

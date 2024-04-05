@@ -1,0 +1,32 @@
+.btn-custom-download, .btn-copy-text-code {
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: var(--border-radius-normal);
+    color: var(--color-light);
+    padding: var(--space-md) var(--space-xl);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+}
+
+.btn-copy-text-code {
+    margin-left: var(--space-xl);
+}
+
+.btn-custom-download:hover, .btn-copy-text-code:hover {
+    background-color: var(--color-secondary);
+}
+.btn-new-download {
+    background-color: var(--color-success);
+    border: none;
+    border-radius: var(--border-radius-normal);
+    color: var(--color-light);
+    padding: var(--space-md) var(--space-xl);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+}

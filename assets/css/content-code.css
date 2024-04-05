@@ -1,0 +1,16 @@
+.content-item-code {
+    text-align: left;
+    background-color: var(--color-light);
+    padding: var(--font-size-xl) 0;
+    margin: var(--font-size-xl);
+    border: var(--border-1) solid var(--color-light);
+}
+.text-success {
+    color: var(--color-success);
+    font-size: var(--font-size-lg);
+    font-weight: bold;
+    margin-left: var(--font-size-xl);
+}
+.message-success {
+    padding: var(--font-size-xl) 0;
+}
